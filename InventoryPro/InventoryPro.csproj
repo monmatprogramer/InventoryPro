@@ -9,12 +9,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="docs\" />
-    <Folder Include="scripts\" />
-    <Folder Include="tests\" />
-    <Folder Include="src\Gateway\" />
-    <Folder Include="src\Shared\" />
-    <Folder Include="src\Services\" />
+    <Folder Include="src\Shared\InventoryPro\Shared\DTOs\" />
+    <Folder Include="src\Shared\InventoryPro\Shared\Constants\" />
+    <Folder Include="src\Shared\InventoryPro\Shared\Helpers\" />
+    <Folder Include="tests\InventoryPro\AuthService\Tests\" />
+    <Folder Include="tests\InventoryPro\ProductService\Tests\" />
+    <Folder Include="tests\InventoryPro\ReportService\Tests\" />
+    <Folder Include="tests\InventoryPro\SalesService\Tests\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="InventoryPro.sln" />
+    <None Include="src\Clients\InventoryPro\InventoryPro.WinForms.csproj" />
+    <None Include="src\gateway\inventorypro.gateway\InventoryPro.Gateway.csproj" />
+    <None Include="src\Services\InventoryPro\AuthService\InventoryPro.AuthService.csproj" />
+    <None Include="src\services\inventorypro\productservice\InventoryPro.ProductService.csproj" />
+    <None Include="src\services\inventorypro\reportservice\InventoryPro.ReportService.csproj" />
+    <None Include="src\services\inventorypro\salesservice\InventoryPro.SalesService.csproj" />
+    <None Include="src\shared\inventorypro\shared\InventoryPro.Shared.csproj" />
   </ItemGroup>
 
 </Project>
