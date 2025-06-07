@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="docs\" />
+    <Folder Include="scripts\" />
+    <Folder Include="tests\" />
+    <Folder Include="src\Clients\" />
+    <Folder Include="src\Gateway\" />
+    <Folder Include="src\Shared\" />
+    <Folder Include="src\Services\" />
+  </ItemGroup>
+
+</Project>
