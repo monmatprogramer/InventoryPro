@@ -1,4 +1,4 @@
-namespace InventoryPro
+namespace InventoryPro.src.Clients.InventoryPro.WinForms
 {
     internal static class Program
     {

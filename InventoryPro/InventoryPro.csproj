@@ -12,7 +12,6 @@
     <Folder Include="docs\" />
     <Folder Include="scripts\" />
     <Folder Include="tests\" />
-    <Folder Include="src\Clients\" />
     <Folder Include="src\Gateway\" />
     <Folder Include="src\Shared\" />
     <Folder Include="src\Services\" />
